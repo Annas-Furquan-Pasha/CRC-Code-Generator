@@ -32,6 +32,7 @@ int main() {
 
     if(data.size() < divisor.size()) {
         cout << "Enter data correctly" << endl;
+        return -1;
     }
 
     int n=divisor.size();
